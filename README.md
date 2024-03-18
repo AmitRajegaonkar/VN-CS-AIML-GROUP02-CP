@@ -41,6 +41,12 @@ Expense Tracker is a web-based application designed to help users track their fi
 3. Sign up or log in with your credentials.
 4. Begin logging your expenses and exploring the features of the application.
 
+## Screenshot
+![imageName (6)](https://github.com/AmitRajegaonkar/VN-CS-AIML-GROUP02-CP/assets/134671638/45953789-3817-4272-a266-7d1238acec71)
+![image](https://github.com/AmitRajegaonkar/VN-CS-AIML-GROUP02-CP/assets/134671638/50ef60f2-c426-4843-bcd6-1cbe5046e948)
+![image](https://github.com/AmitRajegaonkar/VN-CS-AIML-GROUP02-CP/assets/134671638/b95f99f7-b0e8-446f-bc17-07545ee758b5)
+![image](https://github.com/AmitRajegaonkar/VN-CS-AIML-GROUP02-CP/assets/134671638/76129e26-d028-437e-b2d5-a9c329d084ba)
+
 ## Contact
 
 MADE BY :-  Amit Rajegaonakr 
