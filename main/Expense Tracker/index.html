@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>Expense Tracker</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h2>Expense Tracker</h2>
+    <div class="container">
+      <div class="left-div" >
+        <div id="capture-div" class="capture-div">
+        <div class="Balance">
+          <h4>Your Balance</h4>
+          <h1 id="balance">₹0.00</h1>
+        </div>
+          <div class="inc-exp-container">
+            <div>
+              <h4>Income</h4>
+              <p id="money-plus" class="money-plus">
+                +₹0.00
+              </p>
+            </div>
+            <div>
+              <h4>Expense</h4>
+              <p id="money-minus" class="money-minus">
+                -₹0.00
+              </p>
+            </div>
+          </div>
+        </div>
+        <h3>History</h3>
+        <div class="maindiv2" id="maindiv">
+          <ul id="list" class="list div2 ">
+            <!-- <li class="minus">
+              Cash <span>-₹400</span
+              ><button class="delete-btn">x</button>
+            </li> -->
+          </ul>
+        </div>
+
+      </div>
+      
+      <!-- sencond div  -->
+
+      <div class="right-div">
+          <h3>Add New Transition</h3>
+          <form autocomplete="off" id="form">
+              <div class="form-control">
+                  <label for="text">Category of expense.</label>
+                  <input type="text" id="text" placeholder="Enter Text...." />
+              </div>
+              <div class="form-control">
+                  <label for="amount">Amount <br> (Use '+' for income.)</label>
+                  <input type="text" id="amount" placeholder="Enter amount...">
+              </div>
+              <div>
+                  <label for="date">Date</label>
+                  <br>
+                  <input class="control" type="date" id="date" placeholder="Enter date...">
+              </div>
+              <button class="btn">All transaction</button>
+
+          </form>
+          <button onclick="location.href='../D3/indexprt1.html'" class="btn">Expense Analysis</button>
+          <div class="butt">
+              <button id="capture-button" class="but">share</button>
+              <button onclick="location.href='../default.aspx'" class="but">Home</button>
+
+          </div>
+          <a class="lin" id="exportButton">Export CSV</aid="exportButton">
+      </div>
+    </div>
+    <!-- JavaYscript Project  -->
+    <script src="./html2canvas.js"></script>1
+    <script src="./script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Expense Tracker</title>
+  <style>
+
+      .tooltip {
+          position: absolute;
+          padding: 10px;
+          background-color: steelblue;
+          color: white;
+          border: 1px solid white;
+          border-radius: 10px;
+          display: none;
+          opacity: .75;
+      }
+
+
+          h1 {
+          font-family: "Lucida Console", "Courier New", monospace;
+          color: white;
+          position:relative;
+          left: 645px;
+          top: 60px;
+      }
+      
+      body {
+          background: #191919 ;
+          color:white;
+      }
+    rect {
+      pointer-events: all;
+      fill-opacity: 0;
+      stroke-opacity: 0;
+      z-index: 1;
+    }
+
+
+      .div9 {
+          position: relative;
+          top: 75px;
+          left: 95px;
+      }
+
+      .but {
+          height: 50px;
+          width: 100px;
+          margin-bottom: 100px;
+          margin-left: 47%;
+          margin-top: 105px;
+          border-radius: 5px;
+          border: none;
+          font-family: "Poppins", sans-serif;
+          font-weight: 600;
+          font-size: medium;
+          background-color: #1B1A55;
+          color: rgb(255, 255, 255);
+      }
+
+          .but:hover {
+              cursor: pointer;
+              background-color: #2d2b91;
+              .tooltip {
+          position: absolute;
+          padding: 10px;
+          background-color: steelblue;
+          color: white;
+          border: 1px solid white;
+          border-radius: 10px;
+          display: none;
+          opacity: .75;
+      }
+
+   
+  </style>
+</head>
+
+<body>
+    <h1>user spending diagram</h1>
+  <div class="div9" id="chart-container"></div>
+  <div id="tooltip"></div>
+
+  <!-- Include the D3.js library -->
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <!-- Include your custom script file -->
+  <script src="scriptstart.js"></script>
+</body>
+<button onclick="location.href='../Expense Tracker/index.html'" class="but">
+    Expense Tracker
+</button>
+</html>
