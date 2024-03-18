@@ -1,0 +1,71 @@
+.container {
+  max-width: 960px;
+}
+
+.icon-link > .bi {
+  width: .75em;
+  height: .75em;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(0, 0, 0, .85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color .15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Dummy devices (replace them with your own or something else entirely!)
+ */
+
+.product-device {
+  position: absolute;
+  right: 12%;
+  bottom: 0%;
+  width: 300px;
+  height: 540px;
+  border-radius: 21px;
+  transform: rotate(0deg);
+}
+
+.product-device-before {
+  position: absolute;
+  left: 4%;
+  bottom: 0%;
+  width: 300px;
+  height: 540px;
+  border-radius: 21px;
+  transform: rotate(0deg);
+}
+
+.product-device-2 {
+  top: -25%;
+  right: auto;
+  bottom: 0;
+  left: 5%;
+}
+
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
