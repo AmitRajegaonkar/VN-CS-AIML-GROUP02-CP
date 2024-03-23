@@ -49,7 +49,7 @@ Expense Tracker is a web-based application designed to help users track their fi
 
 ## Contact
 
-MADE BY :-  Amit Rajegaonakr 
+MADE BY :-  Amit Rajegaonkar 
 
 MOBILE NUM :- 7350911139
 
